@@ -1,0 +1,33 @@
+
+//CarManager carManager = new CarManager(new InMemoryCarDal());
+            //foreach (var cars in carManager.GetAll())
+            //{
+            //    Console.WriteLine(cars.Description);
+
+                
+            //}
+            CarManager carManager = new CarManager(new InMemoryCarDal());
+            int id = 3;
+            //CarManager carManger2 = new CarManager();
+           
+            //foreach (var cars in carManager.GetById(id))
+            //{
+            //    Console.WriteLine(cars.Description); ;
+            //}
+
+            //Car car1 = new Car { Id=4,BrandId=1,ColorId=2,Description="Classic",DailyPrice=1500,ModelYear="2000"};
+            //carManager.Add(car1);
+            //Console.WriteLine("-------------------------");
+            //foreach (var cars in carManager.GetAll())
+            //{
+            //    Console.WriteLine(cars.Description); ;
+            //}
+
+            //Console.WriteLine("-------------------------");
+            //carManager.Delete(car1);
+
+            //foreach (var cars in carManager.GetAll())
+            //{
+            //    Console.WriteLine(cars.Description); ;
+            //}
+            //Console.WriteLine("-------------------------");
